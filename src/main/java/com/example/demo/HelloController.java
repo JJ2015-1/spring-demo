@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello Jenkins CI/CD!";
+        return "Hello Spring Boot Auto Deploy!";
     }
 
 }
